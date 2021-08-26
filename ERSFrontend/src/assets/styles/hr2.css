@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Open+Sans:wght@600&family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@900&display=swap");
+
+.btn-login {
+  background-color: #00adb5;
+  color: white;
+}
+.btn-xxl {
+  width: 19rem;
+}
+
+.tableheading {
+  background-color: #e8e8e8;
+}
+
+.tableborder {
+  border: 2px solid black;
+  border-style: double;
+}
+
+.navBarText {
+  font-size: 1em;
+  color: white;
+}
+
+.form-control {
+  font-size: 1.1em;
+}
+
+.btn {
+  font-size: 1.2em;
+}
+.btnsmall {
+  font-size: 1.2em;
+  width: 10%;
+}
+
+.viewthead {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.viewtbody {
+  font-size: 1.3em;
+}
+
+.cardheading {
+  font-size: 1.4em;
+}
+
+.cardbody {
+  font-size: 1.3em;
+}
+
+.familydetails {
+  font-size: 1.3em;
+}
+
+.editPage {
+  font-size: 1em;
+}
+
+.manditory {
+  color: red;
+  content: "*";
+}
+
+.topBorder {
+  border-top: 2px solid black;
+}
+
+.greenBorder {
+  border: 2px solid green;
+}
+
+.heading {
+  text-decoration: bold;
+  font-size: 35px;
+}
+
+@media all {
+  .Login {
+    background-color: white;
+    margin-top: 140px;
+    justify-content: center;
+    padding: 60px 0;
+    width: 28em;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .voucher {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    text-decoration: bold;
+    font-size: 30px;
+  }
+
+  .Login {
+    margin-top: 140px;
+    width: 15em;
+    padding: 30px 0;
+    color: white;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 200px;
+    color: black;
+  }
+  .dataTable {
+    width: 80%;
+  }
+}
+Table,
+tr,
+th {
+  border: 1.5px white;
+  border-collapse: collapse;
+}
+tr {
+  padding: 5px;
+  text-align: left;
+  font-size: 15px;
+  font-family: fantasy;
+  font-weight: bold;
+  background-color: #f8f8ff;
+}
+th {
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #272a3d;
+}
+.centerItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-datepicker__input-container input {
+  display: block;
+  width: 100% !important;
+}
+
+.border-all {
+  border: black solid 1px !important;
+}
+.border-left {
+  border-left: black solid 1px !important;
+}
+
+.border-right {
+  border-right: black solid 1px !important;
+}
+
+.border-bottom {
+  border-bottom: black solid 1px !important;
+}
+
+.border-top {
+  border-top: black solid 1px !important;
+}
+.Amount {
+  text-align: right;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+@media print {
+  @page {
+    size: portrait;
+  }
+  body * {
+    visibility: hidden;
+  }
+  .section-to-print,
+  .section-to-print * {
+    visibility: visible;
+  }
+  .section-to-print {
+    position: relative;
+  }
+  .expense {
+    width: 80em;
+    left: 2em;
+  }
+  .donation {
+    width: 70em;
+    left: -5em;
+  }
+}
+
+.navbox button {
+  position: relative;
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  color: #03e9f4 !important;
+  background-color: transparent;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+.navbox button span {
+  position: absolute;
+  display: block;
+}
+
+.navbox button span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.navbox button span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.navbox button span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.navbox a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #8300bfaf 0%,
+    #d582d6 51%,
+    #400290 100%
+  );
+}
+.btn-grad {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.btns-grad {
+  text-align: center;
+  margin-left: 30px;
+  transition: 0.5s;
+  font-size: 15px;
+  padding: 2px 3px;
+  background-size: 50% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  text-decoration: none;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.jobCard {
+  background-color: #272a3d;
+  width: 19rem;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1vw;
+  border-radius: 1em;
+}
+
+.titleCenter {
+  text-align: center;
+}
+.carddeck {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+}
+
+.noborder {
+  border-top: none;
+}
+
+.applyCard {
+  width: 60vw;
+  margin-left: 17vw;
+}
+
+.skill {
+  margin-right: 2vw;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  background-image: linear-gradient(315deg, #9966cc 0%, #9966cc 50%);
+  color: white;
+  margin-top: 0.5vw;
+}
+
+.applCard {
+  background-color: #272a3d;
+  width: 24rem;
+  margin-left: 1em;
+  margin-right: 2em;
+  margin-top: 1vw;
+  border-radius: 1em;
+}
+
+.intCard {
+  background-color: #272a3d;
+  width: 22rem;
+  margin-left: 1em;
+  margin-right: 2em;
+  border-radius: 1em;
+}
+
+.interview {
+  background-color: #272a3d;
+  width: 20rem;
+  margin-left: 1em;
+  border-radius: 1em;
+  color: white;
+}
+
+.interviewDetailsCard {
+  min-height: "40vw";
+  margin-left: 2vw;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  border-radius: 1em;
+  margin-top: 4em;
+}
+
+.card1 {
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  text-align: center;
+  height: 10.25vw;
+  width: 12vw;
+  color: white;
+}
+
+.card2 {
+  background-color: #05e8ba;
+  background-image: linear-gradient(315deg, #087ee1 0%, #05e8ba 100%);
+}

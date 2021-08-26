@@ -1,0 +1,44 @@
+/* Slider.css */
+
+.slider {
+  margin-bottom: 40px;
+}
+
+.slider label {
+  color: #888;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.input-range__slider {
+  background: #03e9f4;
+  border: none;
+}
+
+.input-range__track {
+  background: #ddd;
+}
+
+.input-range__track--active {
+  background: #03e9f4;
+}
+
+.input-range__label--value .input-range__label-container {
+  color: white;
+  font-size: 0.8rem;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+.input-range__label--min .input-range__label-container,
+.input-range__label--max .input-range__label-container {
+  font-size: 0.8rem;
+  color: #888;
+  left: 0;
+}
+
+.input-range__label--max .input-range__label-container {
+  left: 25%;
+}

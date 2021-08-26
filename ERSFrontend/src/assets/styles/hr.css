@@ -1,0 +1,77 @@
+.jobCard {
+  background-color: #272a3d;
+  width: 19rem;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1vw;
+  border-radius: 1em;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #8300bfaf 0%,
+    #d582d6 51%,
+    #400290 100%
+  );
+}
+.btn-grad {
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.btns-grad {
+  text-align: center;
+  margin-left: 30px;
+  transition: 0.5s;
+  font-size: 15px;
+  padding: 2px 3px;
+  background-size: 50% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  text-decoration: none;
+  /* justify-content: center;
+    align-items: center; */
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+Table,
+tr,
+th {
+  border: 1.5px white;
+  border-collapse: collapse;
+}
+tr {
+  padding: 5px;
+  text-align: left;
+  font-size: 15px;
+  font-family: fantasy;
+  font-weight: bold;
+  background-color: #f8f8ff;
+}
+th {
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #272a3d;
+}
+
+.centerItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

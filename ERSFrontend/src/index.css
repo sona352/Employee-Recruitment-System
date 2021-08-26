@@ -1,0 +1,85 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.submitButton {
+  width: 60%;
+  color: white;
+}
+
+hr {
+  border-top: 1px solid white;
+}
+
+table,
+td {
+  padding: 20px;
+}
+.line-btw {
+  height: 3px;
+  width: 10vw;
+  background-color: #dddddd;
+}
+
+.noline {
+  height: 3px;
+  width: 8vw;
+  background-color: white;
+}
+
+/* .circle {
+  border-color: #dddddd;
+  background-color: #dddddd;
+  border-width: 3px;
+  color: white;
+} */
+
+.circle {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border-color: #dddddd;
+  background-color: #dddddd;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+.filledcircle {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border-color: #dddddd;
+  color: white;
+  font-size: large;
+  text-align: center;
+  background-color: #fc5296;
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+}
+
+.formlabel,
+.headingtabs {
+  color: black;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
